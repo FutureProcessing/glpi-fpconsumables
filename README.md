@@ -1,5 +1,5 @@
 # glpi-fpconsumables
-
+GLPI plugin that allows you to preview consumables at user profile page.
 ##General Information
 
 Current solution for Consumables doesn’t allow to verify which consumables were given to a user. FP Consumables solved that problem and introduces new tab that lists all consumables that were given to a user.
