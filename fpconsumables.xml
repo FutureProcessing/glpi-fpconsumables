@@ -2,13 +2,13 @@
    <name>FP Consumables</name>
    <key>fpconsumables</key>
    <state>stable</state>
-   <logo></logo>
+   <<logo>https://cloud.githubusercontent.com/assets/7323944/10058664/fc694b1e-6246-11e5-9047-64583a3d04ae.png</logo>
    <description>
       <short>
          <en><![CDATA[GLPI plugin that allows you to preview consumables at user profile page.]]></en>
       </short>
       <long>
-         <en><![CDATA[Current solution for Consumables doesn’t allow to verify which consumables were given to a user.<br/>FP Consumables solved that problem and introduces new tab that lists all consumables that were given to a user.<br/>This makes GLPI more "user-centric".]]></en>
+         <en><![CDATA[Current solution for Consumables doesn’t allow to verify which consumables were given to a user.<br/>FP Consumables solved that problem and introduces new tab that lists all consumables that were given to a user.<br/>This makes GLPI more "user-centric".<br/><br/><a href="http://www.future-processing.com">Company website</a>]]></en>
       </long>
    </description>
    <homepage>https://github.com/FutureProcessing/glpi-fpconsumables</homepage>

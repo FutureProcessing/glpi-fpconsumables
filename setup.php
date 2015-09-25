@@ -46,7 +46,7 @@ function plugin_version_fpconsumables() {
 		'version' => '1.0.0',
 		'author' => 'Future Processing',
 		'license' => 'GPLv2+',
-		'homepage' => 'http://future-processing.com',
+		'homepage' => 'http://www.future-processing.com',
 		'minGlpiVersion' => '0.84'); // For compatibility / no install in version < 0.80
 }
 
@@ -61,7 +61,7 @@ function plugin_version_fpconsumables() {
  */
 function plugin_fpconsumables_check_prerequisites() {
     if (version_compare(GLPI_VERSION, '0.84', 'lt') || version_compare(GLPI_VERSION, '0.86', 'gt')) {
-		echo "This plugin requires GLPI >= 0.84 and GLPI < 0.86";
+		echo "This plugin requires GLPI >= 0.84 and GLPI <= 0.86";
 		return false;
     }
 
