@@ -2,7 +2,7 @@
    <name>FP Consumables</name>
    <key>fpconsumables</key>
    <state>stable</state>
-   <<logo>https://cloud.githubusercontent.com/assets/7323944/10058664/fc694b1e-6246-11e5-9047-64583a3d04ae.png</logo>
+   <logo>https://cloud.githubusercontent.com/assets/7323944/10058664/fc694b1e-6246-11e5-9047-64583a3d04ae.png</logo>
    <description>
       <short>
          <en><![CDATA[GLPI plugin that allows you to preview consumables at user profile page.]]></en>
