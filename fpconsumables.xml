@@ -8,18 +8,19 @@
          <en><![CDATA[GLPI plugin that allows you to preview consumables at user profile page.]]></en>
       </short>
       <long>
-         <en><![CDATA[Current solution for Consumables doesn’t allow to verify which consumables were given to a user.<br/>FP Consumables solved that problem and introduces new tab that lists all consumables that were given to a user.<br/>This makes GLPI more "user-centric".<br/><br/><a href="http://www.future-processing.com">Company website</a>]]></en>
+         <en><![CDATA[Current solution for Consumables doesn’t allow to verify which consumables were given to a user.<br/>FP Consumables solved that problem and introduces new tab that lists all consumables that were given to a user.<br/>This makes GLPI more "user-centric".<br/><br/>Changelog:<br/>2015.12<br/>- plugin is now compatibile with GLPI 0.90<br/><br/><a href="http://www.future-processing.com">Company website</a>]]></en>
       </long>
    </description>
    <homepage>https://github.com/FutureProcessing/glpi-fpconsumables</homepage>
-   <download>https://github.com/FutureProcessing/glpi-fpconsumables/archive/master.zip</download>
+   <download>https://github.com/FutureProcessing/glpi-fpconsumables/archive/v.1.0.tar.gz</download>
    <authors>
       <author>Future Processing</author>
    </authors>
    <versions>
       <version>
           <num>1.0</num>
-          <compatibility>0.85.x</compatibility>
+		  <compatibility>0.90</compatibility>
+          <compatibility>0.85</compatibility>
       </version>
    </versions>
    <langs>
