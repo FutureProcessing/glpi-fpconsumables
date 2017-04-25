@@ -22,7 +22,8 @@ class PluginFpconsumablesCommon extends CommonDBTM {
 				LEFT JOIN $consumableItemTable ON ($consumableItemTable.id = $consumableTable.consumableitems_id)
 				WHERE
 					$consumableTable.itemtype = 'User'
-					AND $consumableTable.items_id = '$user_id'";
+					AND $consumableTable.items_id = '$user_id'
+					AND $consumableTable.date_out IS NOT NULL";
 
         $result = $DB->query($query);
 
@@ -95,7 +96,8 @@ class PluginFpconsumablesCommon extends CommonDBTM {
 				LEFT JOIN $consumableItemTable ON ($consumableItemTable.id = $consumableTable.consumableitems_id)
 				WHERE
 					$consumableTable.itemtype = 'User'
-					AND $consumableTable.items_id = '$ID'";
+					AND $consumableTable.items_id = '$ID'
+					AND $consumableTable.date_out IS NOT NULL";
 
 			$result = $DB->query($query);
 			$type_name = $item->getTypeName();
