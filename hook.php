@@ -44,9 +44,9 @@
  * @return boolean Needs to return true if success
  */
 
-function plugin_fpconsumables_install() {
-
-	return true;
+function plugin_fpconsumables_install()
+{
+    return true;
 }
 
 /**
@@ -54,7 +54,7 @@ function plugin_fpconsumables_install() {
  *
  * @return boolean Needs to return true if success
  */
-function plugin_fpconsumables_uninstall() {
-
-	return true;
+function plugin_fpconsumables_uninstall()
+{
+    return true;
 }

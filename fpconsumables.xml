@@ -8,17 +8,23 @@
          <en><![CDATA[GLPI plugin that allows you to preview consumables at user profile page.]]></en>
       </short>
       <long>
-         <en><![CDATA[Current solution for Consumables does not allow to verify which consumables were given to a user.<br/>FP Consumables solves that problem and introduces new tab that lists all consumables that were given to a user.<br/>This makes GLPI more "user-centric".<br/><br/>Changelog:<br/>2015.12<br/>- plugin is now compatibile with GLPI 0.90<br/><br/><br/>2017.04<br/>- plugin is now compatibile with GLPI 9.1.2<br/>- fixed a bug with consumable returned to storage still being visible<br/><br/><a href="http://www.future-processing.com">Company website</a>]]></en>
+         <en><![CDATA[Current solution for Consumables does not allow to verify which consumables were given to a user.<br/>FP Consumables solves that problem and introduces new tab that lists all consumables that were given to a user.<br/>This makes GLPI more "user-centric".<br/><br/>Changelog:<br/><br/>2015.12<br/>- plugin is now compatible with GLPI 0.90<br/><br/>2017.04<br/>- plugin is now compatible with GLPI 9.1.2<br/>- fixed a bug with consumable returning to storage still being visible on the list<br/><br/><a href="http://www.future-processing.com">Company website</a>]]></en>
       </long>
    </description>
    <homepage>https://github.com/FutureProcessing/glpi-fpconsumables</homepage>
-   <download>https://github.com/FutureProcessing/glpi-fpconsumables/archive/v.1.1.tar.gz</download>
+   <download>https://github.com/FutureProcessing/glpi-fpconsumables/archive/v.1.1.1.tar.gz</download>
    <authors>
       <author>Future Processing</author>
    </authors>
    <versions>
       <version>
-         <num>1.0</num>
+         <num>1.1.1</num>
+         <compatibility>9.1.2</compatibility>
+         <compatibility>9.1.1</compatibility>
+         <compatibility>9.1</compatibility>
+      </version>
+      <version>
+         <num>1.1</num>
          <compatibility>9.1.2</compatibility>
          <compatibility>9.1.1</compatibility>
          <compatibility>9.1</compatibility>

@@ -41,13 +41,14 @@
  *
  * @return array
  */
-function plugin_version_fpconsumables() {
-	return array('name' => "FP Consumables",
-		'version' => '1.0.0',
-		'author' => 'Future Processing',
-		'license' => 'GPLv2+',
-		'homepage' => 'http://www.future-processing.com',
-		'minGlpiVersion' => '0.84'); // For compatibility / no install in version < 0.80
+function plugin_version_fpconsumables()
+{
+    return array('name' => "FP Consumables",
+        'version' => '1.1.1',
+        'author' => 'Future Processing',
+        'license' => 'GPLv2+',
+        'homepage' => 'http://www.future-processing.com',
+        'minGlpiVersion' => '0.84'); // For compatibility / no install in version < 0.80
 }
 
 /**
@@ -59,10 +60,11 @@ function plugin_version_fpconsumables() {
  *
  * @return boolean
  */
-function plugin_fpconsumables_check_prerequisites() {
+function plugin_fpconsumables_check_prerequisites()
+{
     if (version_compare(GLPI_VERSION, '0.84', 'lt') || version_compare(GLPI_VERSION, '9.1.2', 'gt')) {
         echo "This plugin requires GLPI >= 0.84 and GLPI <= 9.1.2";
-		return false;
+        return false;
     }
 
     return true;
@@ -71,11 +73,12 @@ function plugin_fpconsumables_check_prerequisites() {
 /**
  * Control of the configuration
  *
- * @param type $verbose
+ * @param boolean $verbose
  * @return boolean
  */
-function plugin_fpconsumables_check_config($verbose = false) {
-	return true;
+function plugin_fpconsumables_check_config($verbose = false)
+{
+    return true;
 }
 
 /**
@@ -83,10 +86,11 @@ function plugin_fpconsumables_check_config($verbose = false) {
  *
  * @global array $PLUGIN_HOOKS
  */
-function plugin_init_fpconsumables() {
-	global $PLUGIN_HOOKS;
+function plugin_init_fpconsumables()
+{
+    global $PLUGIN_HOOKS;
 
-	$PLUGIN_HOOKS['csrf_compliant']['fpconsumables'] = true;
+    $PLUGIN_HOOKS['csrf_compliant']['fpconsumables'] = true;
 
-	Plugin::registerClass('PluginFpconsumablesCommon', array('addtabon' => array('User')));
+    Plugin::registerClass('PluginFpconsumablesCommon', array('addtabon' => array('User')));
 }
