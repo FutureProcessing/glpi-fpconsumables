@@ -44,7 +44,7 @@
 function plugin_version_fpconsumables()
 {
     return array('name' => "FP Consumables",
-        'version' => '1.2.0',
+        'version' => '1.3.0',
         'author' => 'Future Processing',
         'license' => 'GPLv2+',
         'homepage' => 'http://www.future-processing.com',
@@ -62,8 +62,8 @@ function plugin_version_fpconsumables()
  */
 function plugin_fpconsumables_check_prerequisites()
 {
-    if (version_compare(GLPI_VERSION, '0.84', 'lt') || version_compare(GLPI_VERSION, '9.1.3', 'gt')) {
-        echo "This plugin requires GLPI >= 0.84 and GLPI <= 9.1.3";
+    if (version_compare(GLPI_VERSION, '0.84', 'lt') || version_compare(GLPI_VERSION, '9.4', 'gt')) {
+        echo "This plugin requires GLPI >= 0.84 and GLPI <= 9.4";
         return false;
     }
 
