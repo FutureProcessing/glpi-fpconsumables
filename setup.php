@@ -62,7 +62,7 @@ function plugin_version_fpconsumables()
  */
 function plugin_fpconsumables_check_prerequisites()
 {
-    if (version_compare(GLPI_VERSION, '0.84', 'lt') || version_compare(GLPI_VERSION, '9.4', 'gt')) {
+    if (version_compare(GLPI_VERSION, '0.84', 'lt') || version_compare(GLPI_VERSION, '9.4.0', 'gt')) {
         echo "This plugin requires GLPI >= 0.84 and GLPI <= 9.4";
         return false;
     }
