@@ -9,7 +9,7 @@ Current solution for Consumables does not allow to verify which consumables were
 **(User view – new “Consumables” tab)**
 
 ### Requirements
-GLPI 0.85.x, 0.90.x, 9.1, 9.1.1, 9.1.2
+GLPI 0.85.x, 0.90.x, 9.1 - 9.4
 
 ### Install instruction
 Just like all other plugins, just copy to `plugins` directory and install / enable from Administration / Plugins section.
