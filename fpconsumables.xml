@@ -12,11 +12,17 @@
       </long>
    </description>
    <homepage>https://github.com/FutureProcessing/glpi-fpconsumables</homepage>
-   <download>https://github.com/FutureProcessing/glpi-fpconsumables/archive/v.1.2.tar.gz</download>
+   <download>https://github.com/FutureProcessing/glpi-fpconsumables/archive/v.1.3.tar.gz</download>
    <authors>
       <author>Future Processing</author>
    </authors>
    <versions>
+       <version>
+         <num>1.3</num>
+         <compatibility>9.4.x</compatibility>
+         <compatibility>9.3.x</compatibility>
+         <compatibility>9.2.x</compatibility>
+      </version>
       <version>
          <num>1.2</num>
          <compatibility>9.1.3</compatibility>
